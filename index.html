@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Jiyun Bae</title>
+    <meta name="author" content="Jiyun Bae" />
+    <meta name="description" content="Jiyun Bae — Ph.D. student at POSTECH working on robustness and trustworthiness of reasoning vision-language models." />
+    <link rel="icon" type="image/jpeg" href="assets/jiyunbae.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+    <style>
+      body {
+        max-width: 780px;
+        padding: 10px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+        margin: 0 auto;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 375;
+        background-color: #fdfdfd;
+        color: #222;
+        line-height: 1.3;
+      }
+
+      strong { font-family: 'Noto Sans KR', sans-serif; font-weight: 500; }
+
+      h1 { margin-top: 0; line-height: 1; font-weight: 500; }
+
+      h2 {
+        border-bottom: 1px solid #ddd;
+        margin-top: 1.3em;
+        margin-bottom: 0em;
+        padding-bottom: 4px;
+        font-weight: 500;
+      }
+
+      li { margin: 7px 0; }
+
+      a { color: #1772d0; text-decoration-line: none; }
+      a:hover { color: #f09228; }
+
+      /* header */
+      .header { display: flex; align-items: center; gap: 24px; }
+      .header .photo { flex: 0 0 28%; max-width: 28%; padding-left: 4%; text-align: center; }
+      .header .photo img { width: 100%; max-width: 100%; border-radius: 50%; vertical-align: middle; }
+      .header .intro { flex: 1; text-align: center; padding-top: 15px; }
+      .header .icons a { margin: 0 4px; }
+      .header .intro p { margin-top: 12px; }
+
+      @media (max-width: 560px) {
+        .header { flex-direction: column; gap: 8px; }
+        .header .photo { flex: none; max-width: 55%; padding-left: 0; }
+      }
+
+      .justify { text-align: justify; }
+      .dl { line-height: 170%; }
+
+      /* --- Publications toggle & items --- */
+      .pub-toggle {
+        display: flex;
+        gap: 8px;
+        margin: 10px 0 6px 0;
+      }
+      .pub-btn {
+        border: 1px solid #ddd;
+        background: #fff;
+        padding: 6px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 450;
+        color: #222;
+      }
+      .pub-btn.active {
+        border-color: #1772d0;
+        box-shadow: 0 0 0 2px rgba(23,114,208,0.12) inset;
+        color: #1772d0;
+      }
+      .pub-item { margin: 14px 0; }
+      .pub-item dl { margin: 0; }
+      .pub-item dt { margin-bottom: 2px; }
+      .pub-item dd { margin-left: 0; }
+      .pub-item .me { text-decoration: underline; }
+      .highlight { color: #f09228; font-weight: 500; }
+
+      .footer { margin-top: 50px; padding-top: 10px; border-top: 1px solid #eee; color: #999; font-size: 85%; text-align: right; }
+    </style>
+  </head>
+  <body>
+
+    <!-- ============ Header ============ -->
+    <div class="header">
+      <div class="photo">
+        <a href="assets/jiyunbae.jpg"><img alt="profile photo of Jiyun Bae" src="assets/jiyunbae.jpg"></a>
+      </div>
+      <div class="intro">
+        <h1>Jiyun Bae</h1>
+        <div class="icons">
+          <a href="mailto:jiyun.bae@postech.ac.kr" title="Email"><i class="fas fa-envelope fa-2x"></i></a>
+          <a href="https://github.com/jiyunBae007" title="GitHub"><i class="fab fa-github fa-2x"></i></a>
+          <a href="https://scholar.google.com/citations?user=TODO" title="Google Scholar"><i class="ai ai-google-scholar fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/jiyun-bae-33568221a/" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="assets/cv_jiyunbae.pdf" title="CV"><i class="ai ai-cv fa-2x"></i></a>
+        </div>
+        <p>Contact: jiyun.bae [at] postech.ac.kr</p>
+      </div>
+    </div>
+
+    <!-- ============ About ============ -->
+    <div class="section">
+      <h2 id="about">About</h2>
+      <p class="justify">
+        I am a Ph.D. student in the <a href="https://ai.postech.ac.kr/">Graduate School of Artificial Intelligence</a> at <a href="https://postech.ac.kr/eng/">POSTECH</a>,
+        advised by <a href="https://jaeho-lee.github.io/">Jaeho Lee</a> in the <a href="https://effl.postech.ac.kr/">Efficient Learning Lab (EffL)</a>.
+        My research focuses on the robustness and trustworthiness of vision-language models, especially reasoning VLMs.
+        I am interested in understanding when and why these models fail to perceive the visual world as faithfully as they reason about it,
+        and in building AI systems that do.
+      </p>
+      <p class="justify">
+        Before joining POSTECH, I received my B.S. in Information Security from Seoul Women's University,
+        and worked with EffL as an undergraduate research fellow.
+      </p>
+    </div>
+
+    <!-- ============ Publications ============ -->
+    <div class="section">
+      <h2 id="publications">Publications</h2>
+      <div class="pub-toggle" role="tablist" aria-label="Publications filter">
+        <button id="btn-selected" class="pub-btn active" role="tab" aria-selected="true">Selected</button>
+        <button id="btn-all" class="pub-btn" role="tab" aria-selected="false">All</button>
+      </div>
+
+      <div class="pub-list">
+        <p>* denotes equal contribution</p>
+
+        <div class="pub-item selected">
+          <dl>
+            <dt><strong>Understanding the Effects of Distractors on Reasoning Vision-Language Models</strong></dt>
+            <dd>
+              <span class="me">Jiyun Bae</span>, <a href="https://hj-ok.github.io/">Hyunjong Ok</a>, <a href="https://sites.google.com/view/sangwoomo">Sangwoo Mo</a>, <a href="https://jaeho-lee.github.io/">Jaeho Lee</a><br />
+              <strong>EMNLP 2026</strong><br />
+              <a href="https://arxiv.org/abs/2511.21397">paper</a> | <a href="https://github.com/effl-lab/Idis">code</a> | <a href="https://idis-rvlms.github.io/">project page</a>
+            </dd>
+          </dl>
+        </div>
+
+        <!-- Template for a new entry (copy, then remove the "selected" class if it should appear only under "All")
+        <div class="pub-item selected">
+          <dl>
+            <dt><strong>TITLE</strong></dt>
+            <dd>
+              <span class="me">Jiyun Bae</span>, <a href="">Coauthor</a><br />
+              <strong>VENUE YEAR</strong><br />
+              <a href="">paper</a> | <a href="">code</a>
+            </dd>
+          </dl>
+        </div>
+        -->
+      </div>
+    </div>
+
+    <!-- ============ Education ============ -->
+    <div class="section">
+      <h2 id="education">Education</h2>
+      <div class="dl">
+        <strong>Ph.D. Student</strong>, Graduate School of Artificial Intelligence, POSTECH (Advisor: <a href="https://jaeho-lee.github.io/">Jaeho Lee</a>), Feb. 2024 &ndash; Present<br />
+        <strong>B.S. in Information Security</strong>, Seoul Women's University, Mar. 2020 &ndash; Feb. 2024
+      </div>
+    </div>
+
+    <!-- ============ Experience ============ -->
+    <div class="section">
+      <h2 id="experience">Experience</h2>
+      <div class="dl">
+        <strong>Undergraduate Research Fellow</strong>, <a href="https://effl.postech.ac.kr/">Efficient Learning Lab</a>, POSTECH, Jun. 2023 &ndash; Feb. 2024
+      </div>
+    </div>
+
+    <!-- ============ Honors (fill in from CV) ============
+    <div class="section">
+      <h2 id="honors">Selected Honors</h2>
+      <div class="dl">
+        AWARD NAME, YEAR<br />
+      </div>
+    </div>
+    -->
+
+    <div class="footer">Last updated: Sep. 2026</div>
+
+    <script>
+      (function() {
+        const btnSelected = document.getElementById('btn-selected');
+        const btnAll = document.getElementById('btn-all');
+        const items = Array.from(document.querySelectorAll('.pub-item'));
+
+        function setView(view) {
+          const showAll = view === 'all';
+          items.forEach(el => el.style.display = (showAll || el.classList.contains('selected')) ? '' : 'none');
+          btnAll.classList.toggle('active', showAll);       btnAll.setAttribute('aria-selected', String(showAll));
+          btnSelected.classList.toggle('active', !showAll); btnSelected.setAttribute('aria-selected', String(!showAll));
+          const url = new URL(window.location); url.searchParams.set('view', showAll ? 'all' : 'selected'); history.replaceState({}, '', url);
+        }
+
+        btnSelected.addEventListener('click', () => setView('selected'));
+        btnAll.addEventListener('click', () => setView('all'));
+
+        const params = new URLSearchParams(window.location.search);
+        setView(params.get('view') === 'all' ? 'all' : 'selected');
+      })();
+    </script>
+  </body>
+</html>
